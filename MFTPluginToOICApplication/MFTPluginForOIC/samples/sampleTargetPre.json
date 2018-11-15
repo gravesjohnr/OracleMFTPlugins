@@ -1,0 +1,94 @@
+    {
+
+      "type": "instance",
+      "changeFlags": "{19}",
+      "cpstInstCreatedTime": "2018-10-12T09:08:51.118Z",
+      "id": "5188A5DC-8F76-4C3C-AE82-A97B07367795",
+      "instanceProcessStartTime": "2018-10-12T09:08:51.767Z",
+      "manuallyModified": false,
+      "priority": 4,
+      "status": "ACTIVE",
+      "subStatus": "PRE_PROCESSING",
+      "targetId": "tgt_d08d6535-ab32-457a-850d-63ed96a883be",
+      "targetLabel": "soa_mft-2018-10-09 06:12:01.545",
+      "targetName": "LocalSFTP",
+      "transferInstance": {
+        "changeFlags": "{}",
+        "id": "F5624B0F-920E-4CA8-BBA3-FA2C100EFB24",
+        "sourceMessage": {
+          "changeFlags": "{3, 21}",
+          "cpstInstCreatedTime": "2018-10-12T09:08:51.118Z",
+          "dataStorage": {
+            "directoryRef": false,
+            "encrypted": false,
+            "id": "BA5A1C09-F23F-46D9-9DA6-CDD5946F128F",
+            "payloadDeleted": false,
+            "payloadReference": "179/230/message.xml",
+            "payloadSize": 1225,
+            "referenceType": "MFT_STORAGE"
+          },
+
+          "ecId": "3d9d27a3-eff7-4049-8d85-5a7ffb72ab8b-00896083",
+          "fileName": "message.xml",
+          "flowId": "0000MPbYHoiEoI1EvvXvWH1Rj3q400001_",
+          "id": "2E4DB109-FEB3-48F5-BEAF-F0DCDF2BB71F",
+          "modifiedMessagePropClob": {
+            "entry": [
+              {
+                "key": "receivedByServer",
+                "value": "MFTDemo__server_1"
+              },
+
+              {
+                "key": "file.name",
+                "value": "message.xml"
+              },
+
+              {
+                "key": "transformedTargetFileName",
+                "value": "message.xml"
+              },
+
+              {
+                "key": "directory.path",
+                "value": "/home/jgraves/drop2"
+              },
+
+              {
+                "key": "ECID",
+                "value": "3d9d27a3-eff7-4049-8d85-5a7ffb72ab8b-00896083"
+              },
+
+              {
+                "key": "polling.directory.path",
+                "value": "/home/jgraves/drop2"
+              },
+
+              {
+                "key": "processedByServer",
+                "value": "MFTDemo__server_1"
+              },
+
+              {
+                "key": "correlationFlowId",
+                "value": "0000MPbYHoiEoI1EvvXvWH1Rj3q400001_"
+              }
+
+            ]
+
+          },
+
+          "sourceEndpointRef": "file://localhost/home/jgraves/drop2",
+          "sourceName": "LocalDropDirectory",
+          "sourceType": "EXTERNAL",
+          "status": "ACTIVE"
+        },
+
+        "status": "ACTIVE",
+        "transferId": "xfer_06eb6574-02d4-4270-a1e2-1ba45a38c4f3",
+        "transferName": "test"
+      },
+
+      "transferLabel": "soa_mft-2018-10-12 08:38:01.595",
+      "transferName": "test"
+    }

@@ -1,0 +1,84 @@
+    {
+
+      "type": "targetMessage",
+      "changeFlags": "{11}",
+      "bytesTransferred": 1225,
+      "cpstInstCreatedTime": "2018-10-12T12:48:47.514Z",
+      "dataStorage": {
+        "checksum": "c574f3172ffa2b8f2057964c90236fc38321b1af",
+        "directoryRef": false,
+        "encrypted": false,
+        "id": "93C94EAA-D74A-4A67-89D0-52928A0959CE",
+        "payloadDeleted": false,
+        "payloadReference": "194/230/message.xml",
+        "payloadSize": 1225,
+        "referenceType": "MFT_STORAGE"
+      },
+
+      "deliveredFileName": "message.xml",
+      "ecId": "3d9d27a3-eff7-4049-8d85-5a7ffb72ab8b-0090119f",
+      "endpointReference": "sftp://weblogic@mftdemo-wls-1:7522/uploads",
+      "flowId": "0000MPcKbaQEoI1EvvXvWH1Rj3q400001g",
+      "id": "4935F3D4-6483-4962-B697-FC3D80824FD3",
+      "initialFileSize": -1,
+      "instance": {
+        "changeFlags": "{19}",
+        "cpstInstCreatedTime": "2018-10-12T12:48:47.514Z",
+        "id": "7DEEE3A8-B771-441C-90AA-4F8E9466516D",
+        "manuallyModified": false,
+        "status": "ACTIVE",
+        "subStatus": "POST_PROCESSING",
+        "targetId": "tgt_d08d6535-ab32-457a-850d-63ed96a883be",
+        "targetName": "LocalSFTP",
+        "transferInstance": {
+          "changeFlags": "{}",
+          "id": "C2F8C4C5-04E1-48BE-BE8F-78A3F1FA7152",
+          "sourceMessage": {
+            "changeFlags": "{3, 21}",
+            "dataStorage": {
+              "checksum": "c574f3172ffa2b8f2057964c90236fc38321b1af",
+              "directoryRef": false,
+              "encrypted": false,
+              "id": "93C94EAA-D74A-4A67-89D0-52928A0959CE",
+              "payloadDeleted": false,
+              "payloadReference": "194/230/message.xml",
+              "payloadSize": 1225,
+              "referenceType": "MFT_STORAGE"
+            },
+
+            "fileName": "message.xml",
+            "id": "0BC55FC0-49FA-4C0C-83FF-59FAE264E150",
+            "modifiedMessagePropClob": {
+              "entry": ["a","b","c"]
+            },
+
+            "sourceName": "LocalDropDirectory",
+            "sourceType": "EXTERNAL"
+          },
+
+          "status": "ACTIVE",
+          "transferId": "xfer_fea963dc-5254-4a91-9769-8b9f14a9d054"
+        },
+
+        "transferLabel": "soa_mft-2018-10-12 12:45:43.381",
+        "transferName": "MockTest"
+      },
+
+      "lastModifyTs": "2018-10-12T12:48:48.909Z",
+      "messagePropClob": [
+        "a",
+        "b",
+        "c"
+      ],
+
+      "priority": 4,
+      "protocol": "SSH-FTP",
+      "referenceDelivery": false,
+      "senderUserName": "weblogic",
+      "status": "COMPLETED",
+      "targetLabel": "soa_mft-2018-10-09 06:12:01.545",
+      "timeTaken": 75,
+      "transferCompletedTime": "2018-10-12T12:48:48.886Z",
+      "transferStartTime": "2018-10-12T12:48:48.798Z",
+      "transferStatus": "SUCCESSFUL"
+    }
