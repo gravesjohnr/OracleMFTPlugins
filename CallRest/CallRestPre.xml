@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mft:Callouts xmlns:mft="http://xmlns.oracle.com/mft"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.oracle.com/mft Callouts.xsd ">
+  <mft:Callout description="OIC Notification"
+    helpText="Send notification to OIC"
+    groupName="Source-pre,Target-pre"
+    timeout="1800"
+    implementationClass="com.oracle.callout.sample.CallRestPre"
+    libraryName="CallRest.jar"
+    name="OIC Notify Pre">
+    <mft:Parameter description="Action"
+      helpText="Action currently being done"
+      name="Action"
+      parameterType="string"/>
+    <mft:Parameter description="Description"
+      helpText="Description"
+      name="Description"
+      parameterType="string"/>
+  </mft:Callout>
+</mft:Callouts>

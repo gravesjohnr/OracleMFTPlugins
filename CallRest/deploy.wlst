@@ -1,0 +1,7 @@
+connect('weblogic',"welcome1","t3://localhost:9073")
+deleteCallout('OIC Notify Pre')
+deleteCallout('OIC Notify Post')
+createCallouts("/u01/soacs/dbfs/share/mft/callout/CallRestPre.xml")
+createCallouts("/u01/soacs/dbfs/share/mft/callout/CallRestPost.xml")
+listCallouts()
+exit()
